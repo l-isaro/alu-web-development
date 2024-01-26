@@ -1,0 +1,136 @@
+body {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+}
+
+.menu {
+    display: inline-flex;
+    text-decoration: none;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 167.016px;
+    height: 29.461px;
+    flex-shrink: 0;
+}
+
+.middle_part {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.big {
+    color: #fff;
+    text-align: center;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    height: 20px;
+    line-height: normal;
+}
+
+.schooled_text {
+    color:#fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+}
+
+button {
+    width: 162px;
+    height: 44px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 22px;
+    background: #c271ff;
+}
+
+.pros {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 200px;
+    line-height: normal;
+    text-align: center;
+}
+
+.purple {
+    color: #c271ff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.name {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.description {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
