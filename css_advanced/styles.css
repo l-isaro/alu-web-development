@@ -1,21 +1,18 @@
-body {
-    font-family: "Source Sans Pro";
-    font-style: normal;
+* {
+    font-family: 'Source Sans 3', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    padding: 0;
-    margin: 0;
-    background-color: grey;
+header, .main {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .main {
-    margin: 0;
-    padding: 0;
-    background-color: grey;
+    padding-bottom: 30px;
 }
 
 a {
@@ -32,6 +29,9 @@ a {
     display: flex;
     justify-content: center;
     gap: 600px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
 }
 
 .menu {
@@ -53,6 +53,8 @@ a {
 .middle_part {
     color: #fff;
     text-align: center;
+    top: 20%;
+    padding-top: 10%;
     
 }
 
@@ -62,7 +64,9 @@ a {
     font-size: 120px;
     font-style: normal;
     font-weight: 700;
-    height: 20px;
+    height: 20;
+    margin: 0;
+    top: 10%;
     line-height: normal;
 }
 
@@ -87,6 +91,7 @@ button {
     line-height: normal;
     border-radius: 22px;
     background: #c271ff;
+    border: none;
 }
 
 .pros {
@@ -99,7 +104,7 @@ button {
     text-align: center;
 }
 
-.purple {
+#purple {
     color: #c271ff;
     font-size: 32px;
     font-style: normal;
@@ -133,4 +138,189 @@ button {
     font-style: italic;
     font-weight: 400;
     line-height: 24px;
+}
+
+.review-part {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.review {
+    border-radius: 50%;
+}
+
+.review-section {
+    background-color: #c271ff;
+    padding: 2rem;
+    color: #fff;
+}
+
+.review-section h4 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.review-section blockquote {
+    margin-bottom: 10px;
+}
+
+.review-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33.6px;
+
+}
+
+.videos {
+    color: black;
+    padding: 60px 105px;
+}
+
+.video-text {
+    font-size: 32px;
+    line-height: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.author-name {
+    color: #c271ff;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.rating img {
+    object-fit: contain;
+}
+
+.preview {
+    width: 255px;
+    height: 154px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.rel-image{
+    position: absolute;
+    top: 45px;
+    left: 96px;
+}
+
+.videos p {
+    font-size: 14px;
+}
+
+.videos h2 {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.membership {
+    background-color: #071629;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 50px;
+}
+
+.membership .video-container {
+    align-items: center;
+    text-align: center;
+}
+
+.column {
+    padding: 0px 20px;
+}
+
+.faq-section {
+    padding: 50px 80px;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.faq-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.row div {
+    padding-right: 100px;
+}
+
+.row h2 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #071629;
+    height: 249px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer .copyright {
+    align-self: center;
+    margin-top: 80px;
+    
 }
